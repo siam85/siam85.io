@@ -1,0 +1,491 @@
+/**Responsive Width Lists
+    1.  1699px
+    2.  1200px
+    2.  1128px
+    3.  992px
+    4.  874px
+    5.  820px
+    6.  780px
+    6.  629px
+    7.  573px
+    8.  461px
+**/
+.slicknav_menu
+{
+	display: none;
+}
+.carousel-indicators
+{
+    display: none;
+}
+
+@media screen and (max-width: 1699px) {
+ 
+    .carousel-caption h1
+    {
+        font-size: 42px;
+        font-weight: 500;
+        font-family: 'Poppins' , sans-serif;
+
+    }
+    .carousel-caption a
+    {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width:1366px)
+{
+    .diagonal.home-left{
+
+    bottom: -1px;
+}
+
+.diagonal.home-right{
+    bottom: -1px;
+
+}
+@media only screen and (max-width: 1201px)
+{
+      section .about-image 
+    {
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+    .section-title.dleft
+    {
+    text-align: left;
+    padding: initial;
+    }
+    .about .section-title.dleft h2
+    {
+        margin-top:-20px; 
+    }
+     .about  p
+    {
+        padding-left: 20px;
+    }
+      .owl-carousel .area
+    {
+    margin-left:200px;
+
+    }
+}
+
+@media only screen and (max-width: 1128px) {
+ 
+    .carousel-caption h1
+    {
+        font-size: 36px;
+    }
+
+    .carousel-caption a
+    {
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    .owl-carousel .area
+    {
+    margin-left:220px;
+
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+     
+    #menu{
+        display: none;
+    }
+    .slider
+    {
+        margin-top: 112px;
+    }
+    header
+    {
+        margin-top: -112px;
+        background: rgba(0,0,0,0.6);
+    }
+    .slicknav_menu
+    {
+        display: inline-block;
+        position: fixed;
+        background: transparent;
+        z-index: 10000;
+        right: 0;
+        margin-top: -80px;
+        background: ; /*//here should be ash color transparent;*/
+    }
+    .slicknav_btn
+    {
+        background:transparent;
+        margin: 10px 30px 10px 10px ;
+        font-size: 25px;
+    }
+    .slicknav_nav
+    {
+        background: transparent;
+        width: 200px;
+        //margin-right: -5px;
+    }
+    .slicknav_nav li
+    {
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        font-size: 15px;
+        width: 200px;
+        border-bottom: .3px solid rgba(255, 255, 255,0.2);
+        border-top:.3px solid rgba(255, 255, 255,0.2);
+        text-align: center;
+        background: rgba(0,0,0,0.85);
+        margin-right: 15px;
+    }
+    .slicknav_nav li:first-child{
+        margin-top: 12px;
+    }
+     .slicknav_nav li:last-child{
+        border-bottom-left-radius: 5px;
+         border-bottom-right-radius: 5px;
+    }
+    .slicknav_nav li a
+    {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    .carousel-caption h1
+    {
+        font-size: 32px;
+    }
+    .services h1
+    {
+        font-size: 32px;
+    }
+    .services p
+    {
+        font-size: 15px;
+    }
+    section .about-image 
+    {
+        margin-top: 30px;
+        margin-left: 140px;
+        width: 350px;
+        height: 350px;
+    }
+    .about .section-title.dleft h2
+    {
+        margin-top:20px; 
+    }
+     .about  p
+    {
+        padding-left: 20px;
+    }
+    .diagonal-gray
+    {
+    height: 120px;
+    }
+    .diagonal-gray-cont{
+        
+    height: 120px;
+    }
+    .owl-carousel .area
+    {
+    margin-left: 200px;
+
+    }
+     blockquote i
+    {
+        font-size: 16px;
+    }
+    footer  h1
+    {
+        font-size:32px;
+    }
+    footer span
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 874px) {
+ 
+    .carousel-caption h1
+    {
+        font-size: 28px;
+    }
+
+    .carousel-caption p
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+ 
+    .carousel-caption h1
+    {
+        font-size: 24px;
+
+    }
+
+    .carousel-caption p
+    {
+        font-size: 12px;
+    }
+    .carousel-caption a
+    {
+        margin-bottom: 40px;
+        font-size: 30px;
+     }
+    .owl-carousel .area
+    {
+    margin-left:150px;
+
+    }
+}
+
+@media screen and (max-width: 780px) {
+/* start of medium tablet styles */
+        .carousel-caption h1
+    {
+        font-size: 25px;
+
+    }
+
+    .carousel-caption p
+    {
+        font-size: 14px;
+    }
+    .carousel-caption a
+    {
+        margin-bottom: 50px;
+        font-size: 30px;
+     }
+    .left.carousel-control
+    {
+        margin-bottom: 100px
+    }
+    .right.carousel-control
+    {
+        margin-bottom: 100px
+    }
+      .diagonal.home-left{
+        height: 100px;
+    }
+    .diagonal.home-right{
+        height: 100px;
+    }
+      .diagonal-gray
+    {
+        height: 100px;
+    }
+       .diagonal-testi.testi-left
+    {
+        height: 100px;
+    }
+       .diagonal-testi.testi-right
+    {
+        height: 100px;
+    }
+    .testimonials h1{
+        text-align: center;
+        margin: 0 0 0 0;
+        font-size: 28px;
+    }
+     .diagonal-gray-cont{
+        
+    height: 100px;
+    }
+    
+
+}
+
+@media screen and (max-width: 629px){
+    section .about-image 
+    {
+        margin-left: 100px;
+        width: 340px;
+        height: 340px;
+    }
+    .section-title.dleft
+    {
+    text-align: left;
+    padding: initial;
+    }
+    .about .section-title.dleft h2
+    {
+        margin-top:20px; 
+    }
+     .about  p
+    {
+        padding-left: 20px;
+    }
+      .services h1
+    {
+        font-size: 28px;
+    }
+    .services p
+    {
+        font-size: 12px;
+    }
+    .services .services-content p i 
+    {
+        font-size: 25px;
+    }
+     blockquote i
+    {
+        font-size: 14px;
+    }
+      footer  h1
+    {
+        font-size:28px;
+    }
+    footer span
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 573px)
+{
+    .carousel-caption h1
+    {
+        font-size: 20px;
+
+    }
+
+    .carousel-caption p
+    {
+        font-size: 8px;
+    }
+    .carousel-caption a
+    {
+        margin-bottom: 30px;
+        font-size: 25px;
+     }
+    
+      .left.carousel-control
+    {
+        margin-bottom: 100px
+    }
+    .right.carousel-control
+    {
+        margin-bottom: 100px
+    }
+    section .about-image 
+    {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .section-title.dleft
+    {
+    text-align: left;
+    padding: initial;
+    }
+    .about .section-title.dleft h2
+    {
+        margin-top:20px; 
+    }
+     .about  p
+    {
+        padding-left: 20px;
+    }
+    .owl-carousel .area
+    {
+    margin-left:120px;
+
+    }
+    
+}
+
+@media screen and (max-width: 461px)
+{
+     .carousel-caption h1
+    {
+        font-size: 15px;
+
+    }
+
+    .carousel-caption p
+    {
+        font-size: 5px;
+    }
+    .carousel-caption a
+    {
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 30px;
+        font-size: 25px;
+     }
+    .left.carousel-control
+    {
+        margin-bottom: 10px
+    }
+    .right.carousel-control
+    {
+        margin-bottom: 10px
+    }
+
+    .diagonal.home-left{
+        height: 80px;
+    }
+    .diagonal.home-right{
+        height: 80px;
+    }
+      .diagonal-gray
+    {
+        height: 100px;
+    }
+        .diagonal-testi.testi-left
+    {
+        height: 80px;
+    }
+       .diagonal-testi.testi-right
+    {
+        height: 80px;
+    }
+ .diagonal-testi-bot.testi-left-bot{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top:-23px;
+    background: none;
+    z-index: 99;
+     height: 80px;
+}
+    .diagonal-gray-cont{
+        
+    height: 80px;
+    }
+
+ section .diagonal-testi-bot.testi-right-bot{
+    position: relative;
+    bottom: 0px;
+    top: -23px;
+    right: 0 !important;
+    background: none;
+    z-index: 99;
+    left: auto;
+    height: 80px;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

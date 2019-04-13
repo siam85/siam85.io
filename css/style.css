@@ -1,0 +1,820 @@
+/* --------------------------------- */
+/* Css Stylessheet         */
+/*---------------------------------- */
+
+/**
+	ARS - Portfolio Template 
+	Author : Al Razi Siam
+	Copyright 2019
+
+/* Table of Content
+==================================================
+	
+	1. Header/Menu Section
+	2. Slider Section
+        i.arrow css3 animation
+        ii.SVG CSS3
+	3. Services Section
+	4. About Section
+	5. Portfolio Section
+    6. Testimonial Section
+        i. Bottom SVG CSS3
+    7.  Blog Section
+        i.Expertise Section
+    8.Contact Section
+    9.Footer Section
+
+
+/*------------------------ Header/Menu Section ------------------------*/		
+
+header{
+	color: #fff;
+	height: 112px;
+	line-height: 112px;
+	position: fixed;
+	width: 100%; 
+	z-index: 1000;
+}
+
+header a.logo
+{
+	float: left;
+}
+
+header nav
+{
+	float: right;
+	font-weight: bold;
+
+}
+
+header nav ul li
+{
+	padding-left: 30px;
+}
+
+header nav ul li a
+{
+	color: #fff;
+    font-size: 16px;
+    font-weight: 350;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+
+}
+
+header nav ul li a:hover, header nav ul li a:focus
+{
+	color: #e74c3c;
+	text-decoration: none;
+}
+
+/*------------------------ Slider Section ------------------------*/	
+.carousel-caption h1
+{
+    font-size: 40px;
+    
+}
+
+.carousel-caption p
+{
+    font-size: 16px;
+    
+}
+.carousel-caption a
+{
+    margin-bottom: 200px;
+    font-size: 50px;
+    
+}
+.carousel-inner .item img
+{
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.home-down {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+
+.home-down:hover{
+    color: #fff;
+	transition:all 0.3s ease;
+}
+
+.home-down:focus{
+    color: #fff;
+}
+
+/* -------------- arrow css3 animation --------------*/
+
+@-webkit-keyframes bounce {
+	 0%, 100% {-webkit-transform: translateY(0);} 
+	 50% {-webkit-transform: translateY(-20px);}
+}
+ 
+@-moz-keyframes bounce {
+	 0%, 100% {-moz-transform: translateY(0);}
+	 50% {-moz-transform: translateY(-20px);}
+}
+ 
+@-o-keyframes bounce {
+	 0%, 100% {-o-transform: translateY(0);}
+	 50% {-o-transform: translateY(-20px);}
+}
+
+@keyframes bounce {
+	 0%, 100% {transform: translateY(0);}
+	 50% {transform: translateY(-20px);}
+}
+ 
+ .bounce {
+	 -webkit-border-radius:50%;
+	 -moz-border-radius:50%;
+	 -ms-border-radius:50%;
+	 border-radius:50%;
+	 animation: bounce 2s infinite;
+	 -webkit-animation: bounce 2s infinite;
+	 -moz-animation: bounce 2s infinite;
+	 -o-animation: bounce 2s infinite;
+}
+/** --------------- SVG CSS3 --------------**/
+.diagonal{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #fff;
+    float: left;
+    z-index: 1000;
+}
+
+.diagonal.home-left{
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background: none;
+    z-index: 99;
+}
+
+.diagonal.home-right{
+    position: absolute;
+    bottom: -2px;
+    right: 0 !important;
+    background: none;
+    z-index: 99;
+    left: auto;
+}
+
+.diagonal.home-left, .diagonal.home-right path {
+    fill: #f5f5f5;
+    stroke: #f5f5f5;
+    stroke-width: 4;
+}
+.diagonal-gray path {
+       fill: #f5f5f5;
+}
+.diagonal-gray{
+    position:;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #fff;
+    float: left;
+    z-index: 100;
+    margin-top: 0px;
+}
+/*------------------------ Services Section ------------------------*/
+
+.services
+{
+    text-align-last: center;
+}
+
+.services .services-content
+{
+    margin-top: 50px;
+}
+
+.services .services-content i
+{
+    font-size: 32px;
+    color: #555;
+}
+
+.services .services-content .row
+{
+    margin-bottom: 25px;
+}
+
+/*------------------------ About Section ------------------------*/
+.about{
+    padding-top:90px;
+    padding-bottom: 50px;
+ } 
+section .about p
+{
+
+    font-size: 15px;
+    color: #748182;
+    line-height: 28px;
+}
+section .about-image 
+{
+    margin-top: 30px;
+    width: 380px;
+    height: 380px;
+}
+.section-title.dleft
+{
+    text-align: left;
+    padding: initial;
+}
+
+
+.about.type-1 .about-image{
+    padding-bottom: 70px;
+    background: #e8e8e8;
+}
+
+.about.type-1 .about-image img:before{
+    background: #e4e4e4; 
+}
+
+.about.type-1 .about-image img{
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.18);
+    margin-top: -15%;
+    margin-left: calc(15% - 15px);
+}
+
+.about.type-1.vertiqal .about-image img{
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -15%;
+    margin-left: -15%;
+}
+.about .diagonal-gray path
+{
+    fill: #fff;
+}
+
+.about .diagonal-gray{
+    position:;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #f5f5f5;
+    transform: rotateY(180deg);
+    float: left;
+    z-index: 99;
+    margin-top: 0px;
+}
+
+/*------------------------ Portfolio Section ------------------------*/
+section.portfolio
+{
+    background:#f5f5f5;
+}
+.section-title{
+    text-align: center;
+    padding: 90px 0px 60px 0px;
+}
+.section-title h2
+{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-title p
+{
+    line-height: 20px;
+}
+.portfolio_filter
+{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.portfolio_filter ul
+{
+    margin: auto;
+    display: inline-block;
+}
+
+.portfolio_filter ul li
+{
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.single_item
+{
+    margin-bottom: 30px;
+}
+.single_item img
+{
+    width: 100%;
+    transition: all ease 0.3s;
+}
+
+.single_item img:hover
+{
+    background: #fff;
+    transition: all ease 0.3s;
+    box-shadow: 0px 16px 22px 0px rgba(90,91,95,0.3);
+    top: -5px;
+}
+
+.select-cat
+{
+    color: #000 !important;
+}
+
+/* Portfolio Hover  */
+
+.single_item figure
+{
+    overflow: hidden;
+}
+.single_item figure figcaption
+{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+
+     transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;    
+    -o-transition: all ease 0.4s;
+
+}
+
+.single_item figure figcaption .outter
+{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.single_item figure figcaption .inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single_item figure figcaption span
+{
+    color: rgba(68,68,68,0.8);
+    font-size: 23px;
+}
+
+.single_item figure figcaption .title
+{
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single_item:hover > figure img
+{
+    fill:blur;
+    opacity: .7;
+}
+.single_item:hover > figure figcaption
+{
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);    
+    -o-transform: translateY(0);
+
+    
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;    
+    -o-transition: all ease 0.4s;
+
+}
+
+/*------------------------ Testimonial Section ------------------------*/	
+.testimonials 
+{
+    background: url(../images/5-testimonial/bg.jpg) 100% 100% fixed;
+    color: white;
+    background-color:#000 ;
+    text-align: center;
+    //height: 900px;
+}
+.testimonials h1
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+.owl-carousel .area
+{
+	text-align: center;
+    float: left;
+    width: 60%;
+    margin-left: 330px;
+    margin-top: 50px;
+
+}
+
+blockquote
+{
+	border: none !important;
+	line-height: 1.5em;
+	position: relative;
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	padding:0;
+}
+
+blockquote:before
+{
+	position: absolute;
+	content: '\f10d';
+	top:-5px;
+	left: -20px;
+	font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 25px;
+}
+
+blockquote:after
+{
+	position: absolute;
+	content: '\f10e';
+	bottom:-5px;
+	right: -20px;
+	font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.owl-carousel .area img
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.margin-bottom_200
+{
+    margin-top: 100px;
+    display: block;
+}
+.owl-carousel .area p.name
+{
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.owl-carousel .area p.position
+{
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.testipager li
+{
+    margin-right: 5px;
+}
+.testipager li:last-child{
+    margin-right: 0px;
+}
+.testipager li a
+{
+    color: #fff;
+}
+.testipager li.selected a{
+	color: #e74c3c;
+}
+
+.testimonials .diagonal-gray path
+{
+    fill: #fff;
+}
+
+section .diagonal-testi{
+    position: ;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #fff;
+    float: left;
+    z-index: 1000;
+}
+ .diagonal-testi.testi-left{
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    top:10;
+    background: none;
+    transform: rotateX(180deg);
+    z-index: 99;
+}
+
+ section .diagonal-testi.testi-right{
+    position: relative;
+    bottom: 0px;
+    right: 0 !important;
+    background: none;
+    transform: rotateX(180deg);
+    z-index: 99;
+    left: auto;
+}
+
+ section .diagonal-testi.testi-left, section .diagonal-testi.testi-right path {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 4;
+}
+
+/*------------------------ Testimonial Bottom SVG CSS3 Section ------------------------*/	
+section .diagonal-testi-bot{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #fff;
+    float: left;
+    z-index: 1000;
+}
+ .diagonal-testi-bot.testi-left-bot{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top:-109px;
+    background: none;
+    z-index: 99;
+}
+
+ section .diagonal-testi-bot.testi-right-bot{
+    position: relative;
+    bottom: 0px;
+    top: -109px;
+    right: 0 !important;
+    background: none;
+    z-index: 99;
+    left: auto;
+}
+
+ section .diagonal-testi-bot.testi-left-bot, section .diagonal-testi-bot.testi-right-bot path {
+    fill: #F5F5F5;
+    stroke: #F5F5F5;
+    stroke-width: 4;
+}
+
+/*------------------------ Blog Section ------------------------*/	
+.blog
+{
+    background-color: #F5F5F5;
+}
+.blog b.date
+{
+	color: #333;
+}
+
+.blog h3 a
+{
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.blog h3 a:hover
+{
+	color:#e74c3c;
+}
+
+/*------------------------ Expertise Section ------------------------*/	
+
+.expertise
+{
+    font-family: 'Poppins' ,sans-serif;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.expertise h1
+{
+    text-align: center;
+    font-weight: 500;
+    
+}
+.expertise .img-ex-size
+{
+    
+    height: 300px;
+}
+
+.diagonal-gray-cont path {
+       fill: #f5f5f5;
+    
+}
+.diagonal-gray-cont{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: transparent;
+    float: left;
+    z-index: 99;
+    margin-top: 0px;
+}
+
+/*------------------------ Contact Section ------------------------*/	
+
+.contact
+{
+    background:url(../images/8-contact/c-1.jpg) 100% -20% fixed;
+    
+}
+
+form.contact-form
+{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input:not([type=submit]), textarea
+{
+    width: 100%;
+    margin-bottom: 40px;
+    color: #777;
+    padding-left: 20px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.2) inset;
+}
+
+input:not([type=submit])
+{
+	height: 40px;
+	line-height: 40px;
+}
+
+textarea
+{
+	padding-top: 10px;
+}
+
+#submit
+{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #777;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+#submit:hover
+{
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+/*------------------------ Footer Section ------------------------*/	
+footer
+{
+    padding-top: 56px;
+    font-family: 'Poppins' , sans-serif;
+}
+footer h1
+{
+    padding-bottom: 25px;
+}
+
+footer p i
+{
+    color: #1d1d1d;
+    font-size: 20px;
+}
+
+footer p span 
+{
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+footer p.about
+{
+    margin-bottom: 20px;
+    margin-top: -70px;
+}
+
+form.update-form input:not([type=submit]),textarea
+{
+    width: 100%;
+    margin-bottom: 40px;
+    color: #777;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3) inset;
+    border: none;
+}
+#take-email
+{
+    margin-bottom: 20px;
+}
+
+#submit-button
+{
+      padding: 10px 30px;
+    color: #fff;
+    background-color: #777;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#submit-button:hover
+{
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.footer-social-links li
+{
+    padding: 0 10px;
+    font-size: 28px;
+
+}
+
+.footer-social-links li a i.fa-facebook
+{
+	color: #3b5998;
+}
+
+.footer-social-links li a i.fa-twitter
+{
+	color: #00aced;
+}
+
+.footer-social-links li a i.fa-youtube
+{
+	color:  #bb0000;
+}
+
+.footer-social-links li a i.fa-linkedin
+{
+	color: #007bb5;
+}
+
+.footer-social-links li a i.fa-dribbble
+{
+	color: #ea4c89;
+}
+
+.copyright
+{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 56px;
+}
+footer p span.primary
+{
+    padding-left: 0px;
+}
+
+.copyright p
+{
+    margin: 0 0 0 0;
+}
